@@ -1,0 +1,36 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --title-color: #eee;
+  --sub-title-color: #222;
+  --rounds__title-color: #222;
+  --primary-color: #33b667;
+  --body-color: #f7f7f7;
+  --button-color: #eee;
+  --container-color: #f8f9fa;
+  --disabled-color: #d3d3d3;
+  --text-color: #222;
+  --divider-color: #d1d1d1;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Inter', sans-serif;
+  --body-font: 'Inter', sans-serif;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  /*========== Font weight ==========*/
+  --font-bold: 700;
+  --font-normal: 400;
+
+  /*========== Sizes ==========*/
+  --button-border-radius: 6px;
+  --container-border-radius: 12px;
+}
