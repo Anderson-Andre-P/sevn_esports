@@ -171,3 +171,26 @@ button:disabled {
   justify-content: space-between;
   margin-bottom: 20px;
 }
+
+#buttons-container {
+  display: flex;
+  gap: 10px;
+}
+
+#rounds__games-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#rounds__games-list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 16px 0;
+  align-items: center;
+}
+
+.team img {
+  width: 30px;
+  margin-right: 10px;
+}
