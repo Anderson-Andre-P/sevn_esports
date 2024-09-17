@@ -34,3 +34,42 @@
   --button-border-radius: 6px;
   --container-border-radius: 12px;
 }
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1 {
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+
+.header {
+  background-color: var(--primary-color);
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: bolder;
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
