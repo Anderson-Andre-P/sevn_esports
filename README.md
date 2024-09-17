@@ -1,6 +1,13 @@
 <h1 align="center">SEVN - Esports Challenge ⚽</h1>
 
 <p align="center">
+  <a href="https://anderson-andre-p.github.io/sevn_esports/">
+    <img alt="Made by Anderson André" src="https://img.shields.io/badge/Deploy-33b667?style=for-the-badge&link=https://anderson-andre-p.github.io/sevn_esports/" />
+  </a>
+
+</p>
+
+<p align="center">
   <a href="https://github.com/Anderson-Andre-P/sevn_esports">
     <img alt="Made by Anderson André" src="https://img.shields.io/badge/-Github-33b667?style=for-the-badge&logo=Github&logoColor=white&link=https://github.com/Anderson-Andre-P" />
   </a>
