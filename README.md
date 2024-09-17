@@ -1,4 +1,4 @@
-<h1 align="center">SEVN - Esports Challenge</h1>
+<h1 align="center">SEVN - Esports Challenge ⚽</h1>
 
 <p align="center">
   <a href="https://github.com/Anderson-Andre-P/sevn_esports">
