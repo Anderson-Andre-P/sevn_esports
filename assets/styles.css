@@ -86,3 +86,13 @@ p {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
+
+.main__subtitle {
+  font-size: var(--h2-font-size);
+  color: var(--sub-title-color);
+  font-weight: normal;
+  margin-top: 182px;
+  margin-bottom: 82px;
+  display: flex;
+  justify-content: center;
+}
