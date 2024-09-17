@@ -71,6 +71,25 @@ p {
   line-height: 140%;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 .header {
@@ -95,4 +114,60 @@ p {
   margin-bottom: 82px;
   display: flex;
   justify-content: center;
+}
+
+.rounds__title {
+  font-size: var(--h3-font-size);
+  color: var(--rounds__title-color);
+  font-weight: var(--font-normal);
+}
+
+.rounds__title-container-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#rounds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.rounds__round-number {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--button-color);
+  border: none;
+  padding: 10px 15px;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  border-radius: var(--button-border-radius);
+}
+
+button:disabled {
+  background-color: var(--disabled-color);
+  cursor: not-allowed;
+}
+
+.rounds__container {
+  background-color: var(--container-color);
+  padding: 20px;
+  border-radius: var(--container-border-radius);
+  width: 340px;
+  border: 1px solid var(--divider-color);
+}
+
+.rounds__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
