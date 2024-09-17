@@ -58,6 +58,19 @@ h1 {
   font-weight: var(--font-bold);
 }
 
+h2,
+h3 {
+  color: var(--sub-title-color);
+  font-weight: var(--font-bold);
+}
+
+h1,
+h2,
+h3,
+p {
+  line-height: 140%;
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 .header {
